@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CanaLand</title>
+    <!-- Font awsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+      <a href="#" class="logo"><span>C</span>ana<span>L</span>and</a>
+      <nav class="navbar navbar-dark bg-dark">
+        <a href="#home">Home</a>
+        <a href="#book">Book now</a>
+        <a href="#slider">Gallery</a>
+        <a href="#thingstodo">Things to do</a>
+        <a href="#contact">Contact</a>
+        <a href="#aboutus">About us</a>
+        <a href="#review">Review</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+    <!-- header -->
+
+    <!-- login form -->
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>LOGIN</h3>
+        <input type="email" class="box" placeholder="Enter your email" />
+        <input type="password" class="box" placeholder="Enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">Remember Me</label>
+        <p>Forget Password? <a href="#">Click here</a></p>
+        <p>Don't have an account? <a href="#">Click here</a></p>
+      </form>
+    </div>
+    <!-- login form -->
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Canada Welcomes You</h3>
+        <p>Lets discover new places with CANALAND!</p>
+        <a href="#" class="btn">Lets GO</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn"></span>
+      </div>
+
+      <div class="video-container">
+        <video src="video2.mp4" id="video-slider" loop autoplay muted></video>
+      </div>
+    </section>
+
+    <!-- booking section -->
+    <section class="book now" id="book">
+      <h1 class="heading">
+        <span>B</span>
+        <span>O</span>
+        <span>O</span>
+        <span>K</span>
+        <span class="space"></span>
+        <span>N</span>
+        <span>O</span>
+        <span>W</span>
+      </h1>
+    </section>
+    <!-- image -->
+    <div class="row">
+      <div class="image">
+        <img
+          src="https://images.pexels.com/photos/2929227/pexels-photo-2929227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        />
+      </div>
+      <!-- image -->
+
+      <!-- registration -->
+
+      <form action="" class="former">
+        <!-- <fieldset class="outerpage"> -->
+        <fieldset>
+          <legend>Where To</legend>
+          <input
+            class="input"
+            type="text"
+            placeholder="     Enter Place here"
+          />
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>How many</legend>
+          <input
+            class="input"
+            type="text"
+            placeholder="     Number of peoples"
+          />
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Arrival</legend>
+          <input class="input" type="date" />
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Leaving</legend>
+          <input class="input" type="date" />
+        </fieldset>
+        <br />
+
+        <div id="book-btn">
+          <button id="btn">Book Now</button>
+        </div>
+        <!-- </fieldset> -->
+      </form>
+    </div>
+    <!-- booking section -->
+    <br /><br />
+    <!-- gallery section -->
+    <div id="slider">
+      <figure>
+        <img
+          src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+        />
+        <img
+          src="https://images.pexels.com/photos/158398/niagara-falls-waterfall-horseshoe-158398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        />
+        <img
+          src="https://images.pexels.com/photos/1598072/pexels-photo-1598072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        />
+        <img
+          src="https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        />
+      </figure>
+    </div>
+    <!-- gallery section -->
+    <br /><br />
+
+    <!-- things to do -->
+
+    <section class="thingstodo" id="thingstodo">
+        <div class="container">
+            <div class="card">
+            <h1>Things to do</h1>
+          <div class="imgbx">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe5H8KS8D0yaUh0-xgo8g5MZSvoyCW0McUfg&usqp=CAU"
+              title="CN Tower"
+            />
+          </div>
+          <div class="content">
+            <h2>CN Tower</h2>
+            <p>
+              The CN Tower is a 553.3 m-high concrete communications and
+              observation tower located in the downtown core of Toronto,
+              Ontario, Canada. Built on the former Railway Lands, it was
+              completed in 1976. Its name "CN" originally referred to Canadian
+              National, the railway company that built the tower.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imgbx">
+            <img
+              src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcR7vqEVbeCjUMEkTO5jSJkLU7PvlM3DTt_WpyoykqJbd2RnRpSVrDeI_llbML56c7TSstb828cqcuyx9Mu4Ogc3rQ"
+              title="Moraine Lake"
+            />
+          </div>
+          <div class="content">
+            <h2>Moraine Lake</h2>
+            <p>
+              Moraine Lake is a glacially fed lake in Banff National Park, 14
+              kilometres outside the village of Lake Louise, Alberta, Canada. It
+              is situated in the Valley of the Ten Peaks, at an elevation of
+              approximately 1,884 metres. The lake has a surface area of 50
+              hectares. The lake, being glacially fed, does not reach its crest
+              until middle to late June.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imgbx">
+            <img
+              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRxKhR5dW7TKF3U4ibzuNf-1QogdV53wqnBj-drk-xgh-s5VVWhBiy45FKLKWHryjsxrCEQTYQRASvlTZzSzR2M1w"
+              title="Royal Ontario Museum"
+            />
+          </div>
+          <div class="content">
+            <h2>Royal Ontario Museum</h2>
+            <p>
+              The Royal Ontario Museum is a museum of art, world culture and
+              natural history in Toronto, Ontario, Canada. It is one of the
+              largest museums in North America and the largest in Canada. It
+              attracts more than one million visitors every year, making the ROM
+              the most-visited museum in Canada.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imgbx">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmpZ4AWM9HQXM3ZW2pP9izPIiUORuBnCtRFsaKP7ngXhSCTzNJwja1Tl5jtOzoiRB44Qovh9fk6_ThMZQBZwPrAw"
+              title="Stanley Park"
+            />
+          </div>
+          <div class="content">
+            <h2>Stanley Park</h2>
+            <p>
+              Stanley Park is a 405-hectare public park in British Columbia,
+              Canada that makes up the northwestern half of Vancouver's Downtown
+              Peninsula, surrounded by waters of Burrard Inlet and English Bay.
+              The park borders the neighbourhoods of West End and Coal Harbour
+              to its southeast, and is connected to the North Shore via the
+              Lions Gate Bridge.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imgbx">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_StJgkmRSqCekn5x4-6wCq4aw-5ik6fdbc_QMTP7EGPX_pElxB6WSAdvJ0r92s1-9GDCrNehI0hvkw2afLHItPw"
+              title="Fairmont Le Château Frontenac"
+            />
+          </div>
+          <div class="content">
+            <h2>The Fairmont Le Château Frontenac</h2>
+            <p>
+              The Fairmont Le Château Frontenac, formerly and commonly referred
+              to as the Château Frontenac, is a historic hotel in Quebec City,
+              Quebec, Canada. The hotel is situated in Old Quebec, within the
+              historic district's Upper Town, on the southern side of Place
+              d'Armes.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imgbx">
+            <img
+              src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSssAdSGpSO1e229zW--z9hk49b9IzMtBTCLRmW5ViitLSMMJ7P17S4FVFdwXZgUI-7sKUeLNyE7aUaUEP90mdnSA"
+            />
+          </div>
+          <div class="content">
+            <h2>The Capilano Suspension Bridge</h2>
+            <p>
+              The Capilano Suspension Bridge is a simple suspension bridge
+              crossing the Capilano River in the District of North Vancouver,
+              British Columbia, Canada. The current bridge is 140 metres long
+              and 70 metres above the river. It is part of a private facility
+              with an admission fee, and draws over 1.2 million visitors per
+              year.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- things to do -->
+
+    <!-- contact -->
+
+    <section id="contact">
+        <div class="contact container">
+          <div><h1 class="section-title">Contact <span>info</span></h1></div>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+              <div class="contact-info">
+                <h1>Phone</h1>
+                <h2>+1 234 123 1234</h2>
+                <h2>+1 234 123 1234</h2>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+              <div class="contact-info">
+                <h1>Email</h1>
+                <h2>info@gmail.com</h2>
+                <h2>abcd@gmail.com</h2>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+              <div class="contact-info">
+                <h1>Address</h1>
+                <h2>Fatikchhari, Chittagong, Bangladesh</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- contact -->
+
+    <!-- About us  -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> </a>
+      </div>
+    </nav>
+    <section>
+      <!-- body -->
+      <div class="about-section" id="aboutus">
+        <div class="inner-container">
+          <h1>
+            About Us
+            <div class="border"></div>
+          </h1>
+          <p class="text">
+            Tours-USA.com is a specialist tour operator offering the best
+            holidays to the United States and Canada. We have a unique and
+            comprehensive programme of escorted motorcoach tours, self-drive
+            tours, city packages, cruises, rail tours and fly-drive holidays
+            across North America, all at fantastic prices. Tours-USA.com team is
+            made up of a diverse and enthusiastic group of people all sharing a
+            deep passion for the United States and Canada, two of the most
+            interesting, intriguing and beautiful countries in the world.
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+      <!-- body -->
+    </section>
+    <!-- About us  -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+        <div>
+
+            <h1 class="heading"><span>r</span><span>e</span><span>v</span><span>i</span><span>e</span><span>w</span></h1>
+        </div>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu8WHz_77Cnop0ux27NHRLf3vT7NStveULqg&usqp=CAU"
+                alt=""
+              />
+              <h3>john deo</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu8WHz_77Cnop0ux27NHRLf3vT7NStveULqg&usqp=CAU"
+                alt=""
+              />
+              <h3>john deo</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu8WHz_77Cnop0ux27NHRLf3vT7NStveULqg&usqp=CAU"
+                alt=""
+              />
+              <h3>john deo</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu8WHz_77Cnop0ux27NHRLf3vT7NStveULqg&usqp=CAU"
+                alt=""
+              />
+              <h3>john deo</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <section id="footer">
+        <div class="footer container">
+          <div class="brand"><h1><span>C</span>ana<span>L</span>and</a></h1></div>
+          <div class="social-icon">
+            <div class="social-item">
+              <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+            </div>
+            <div class="social-item">
+              <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+            </div>
+            <div class="social-item">
+              <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+            </div>
+            <div class="social-item">
+              <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png"/></a>
+            </div>
+          </div>
+          <p>Copyright  © 2021 sahil priyal. All rights reserved</p>
+        </div>
+      </section>
+
+    <!-- js file link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
